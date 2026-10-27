@@ -1,0 +1,34 @@
+@import "./styles/tokens.css";
+@import "./styles/ui.css";
+@import "./styles/navbar.css";
+@import "./styles/layout.css";
+@import "./styles/feed.css";
+@import "./styles/sidebar.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: var(--fonte);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}

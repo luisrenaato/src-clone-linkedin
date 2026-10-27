@@ -1,0 +1,15 @@
+:root {
+  --azul: #0a66c2;
+  --azul-escuro: #004182;
+  --azul-claro: #e8f3ff;
+  --fundo: #f4f2ee;
+  --superficie: #fff;
+  --texto: #000000e6;
+  --texto-suave: #00000099;
+  --borda: #0000001f;
+  --hover: #00000014;
+  --verde: #057642;
+  --raio: 8px;
+  --altura-nav: 52px;
+  --fonte: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}

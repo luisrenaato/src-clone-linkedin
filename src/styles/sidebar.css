@@ -1,0 +1,40 @@
+.perfil { overflow: hidden; text-align: center; }
+.perfil__capa { height: 56px; background: linear-gradient(135deg, #70b5f9, #0a66c2 60%, #004182); }
+.perfil__avatar { margin-top: -36px; display: flex; justify-content: center; }
+.perfil__avatar .avatar { border: 2px solid #fff; }
+.perfil__corpo { padding: 12px 12px 12px; border-bottom: 1px solid var(--borda); }
+.perfil__corpo h2 { margin: 0 0 4px; font-size: 16px; font-weight: 600; overflow-wrap: anywhere; }
+.perfil__corpo p { margin: 0; color: var(--texto-suave); font-size: 12px; line-height: 1.4; }
+.perfil__stats { margin: 0; padding: 12px; }
+.perfil__stats div { display: flex; justify-content: space-between; padding: 3px 0; font-size: 12px; }
+.perfil__stats dt { color: var(--texto-suave); font-weight: 600; }
+.perfil__stats dd { margin: 0; color: var(--azul); font-weight: 600; }
+
+.lateral { padding: 12px 16px; }
+.lateral h2 { margin: 0 0 8px; font-size: 16px; font-weight: 600; }
+.lateral__nota { margin: 8px 0 0; color: var(--texto-suave); font-size: 12px; }
+.lateral__mais { display: block; margin-top: 8px; color: var(--texto-suave); font-weight: 600; font-size: 14px; text-decoration: none; }
+.lateral__mais:hover { color: var(--azul); }
+
+.hashtags { display: flex; flex-direction: column; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.hashtags a { color: var(--texto-suave); font-weight: 600; font-size: 14px; text-decoration: none; }
+.hashtags a:hover { color: var(--azul); text-decoration: underline; }
+
+.noticias { display: flex; flex-direction: column; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.noticias li { display: flex; flex-direction: column; }
+.noticias li::before { content: none; }
+.noticias strong { font-size: 14px; font-weight: 600; line-height: 1.3; }
+.noticias small { color: var(--texto-suave); font-size: 12px; }
+
+.pessoas { display: flex; flex-direction: column; gap: 12px; margin: 0; padding: 0; list-style: none; }
+.pessoa { display: flex; gap: 8px; }
+.pessoa__info { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; min-width: 0; }
+.pessoa__info strong { font-size: 14px; font-weight: 600; }
+.pessoa__info small { margin-bottom: 6px; color: var(--texto-suave); font-size: 12px; line-height: 1.3; }
+
+.rodape-lateral { padding: 8px 12px; color: var(--texto-suave); font-size: 11px; line-height: 1.5; text-align: center; }
+.rodape-lateral p { margin: 0; }
+
+.em-breve { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 48px 24px; text-align: center; color: var(--texto-suave); }
+.em-breve h1 { margin: 0; color: var(--texto); font-size: 24px; }
+.em-breve p { margin: 0 0 12px; }
